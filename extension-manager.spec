@@ -8,7 +8,7 @@ Summary:        A utility for browsing and installing GNOME Shell Extensions
 License:        GPL-3.0-or-later
 URL:            https://github.com/mjakeman/extension-manager
 # COPR's SCM mode will replace this with the generated git tarball
-Source0:        %{url}/archive/main/extension-manager-main.tar.gz
+Source0:        %{url}/archive/master/extension-manager-master.tar.gz
 
 # This is a C project, so we need a compiler
 BuildRequires:  gcc
@@ -42,7 +42,7 @@ Requires:       libadwaita
 A native tool for browsing, installing, and managing GNOME Shell Extensions.
 
 %prep
-%autosetup -n extension-manager-main
+%autosetup -n extension-manager-master
 
 %build
 %meson
