@@ -25,9 +25,6 @@ BuildRequires:  pkgconfig(json-glib-1.0)
 BuildRequires:  pkgconfig(libsoup-3.0)
 BuildRequires:  pkgconfig(libxml-2.0)
 
-# Optional backtrace support
-BuildRequires:  libbacktrace-devel
-
 # UI Template and Introspection requirements
 BuildRequires:  gobject-introspection-devel
 
