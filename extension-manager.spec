@@ -45,7 +45,7 @@ A native tool for browsing, installing, and managing GNOME Shell Extensions.
 %autosetup -n extension-manager-master
 
 %build
-%meson
+%meson -Dbacktrace=false
 %meson_build
 
 %install
